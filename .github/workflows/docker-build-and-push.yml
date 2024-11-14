@@ -19,7 +19,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.ACR_REGISTRY }}/ricxx/wxbot:latest .
+        docker build -t ${{ secrets.ACR_REGISTRY }}/ricimages/docker-wechatbot-webhook:latest .
 
     - name: Push Docker image to Alibaba Cloud
       run: |
