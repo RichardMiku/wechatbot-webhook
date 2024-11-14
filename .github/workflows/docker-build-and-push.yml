@@ -23,4 +23,4 @@ jobs:
 
     - name: Push Docker image to Alibaba Cloud
       run: |
-        docker push ${{ secrets.ACR_REGISTRY }}/ricxx/wxbot:latest
+        docker push ${{ secrets.ACR_REGISTRY }}/ricimages/docker-wechatbot-webhook:latest
